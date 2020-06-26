@@ -2,17 +2,19 @@
   "instructors": [
     {
       "avatar_url": "http://google.com",
-      "name": "Merge",
-      "birth": "2020-01-08",
-      "gender": "F",
-      "services": "Crossfit"
+      "name": "Ragnar",
+      "birth": "2020-06-01",
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1593143166840
     },
     {
       "avatar_url": "http://google.com",
-      "name": "Insert",
-      "birth": "2019-11-06",
+      "name": "B",
+      "birth": 1592092800000,
       "gender": "M",
-      "services": "Crossfit, Musculação"
+      "services": "Musculação",
+      "created_at": 1593143257893
     }
   ]
 }
