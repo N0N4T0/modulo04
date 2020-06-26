@@ -1,20 +1,13 @@
 {
   "instructors": [
     {
+      "id": 1,
       "avatar_url": "http://google.com",
-      "name": "Ragnar",
-      "birth": "2020-06-01",
+      "name": "A",
+      "birth": 1591747200000,
       "gender": "M",
       "services": "Musculação",
-      "created_at": 1593143166840
-    },
-    {
-      "avatar_url": "http://google.com",
-      "name": "B",
-      "birth": 1592092800000,
-      "gender": "M",
-      "services": "Musculação",
-      "created_at": 1593143257893
+      "created_at": 1593144873150
     }
   ]
 }
