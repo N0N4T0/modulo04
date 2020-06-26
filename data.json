@@ -1,1 +1,18 @@
-{"avatar_url":"http://google.com.br","name":"Lagherta","birth":"2020-05-04","gender":"F","services":"Musculação"}
+{
+  "instructors": [
+    {
+      "avatar_url": "http://google.com",
+      "name": "Merge",
+      "birth": "2020-01-08",
+      "gender": "F",
+      "services": "Crossfit"
+    },
+    {
+      "avatar_url": "http://google.com",
+      "name": "Insert",
+      "birth": "2019-11-06",
+      "gender": "M",
+      "services": "Crossfit, Musculação"
+    }
+  ]
+}
