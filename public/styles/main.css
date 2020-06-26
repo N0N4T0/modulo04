@@ -81,7 +81,7 @@ header {
 }
 
 .avatar {
-    background-image: url('https://source.unsplash.com/collection/3465564/500x500');
+    /* background-image: url('https://source.unsplash.com/collection/3465564/500x500'); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

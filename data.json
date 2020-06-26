@@ -3,10 +3,19 @@
     {
       "id": 1,
       "avatar_url": "http://google.com",
-      "name": "A",
+      "name": "Menino",
       "birth": 1591747200000,
       "gender": "M",
       "services": "Musculação",
+      "created_at": 1593144873150
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "Menina",
+      "birth": 1591747200000,
+      "gender": "F",
+      "services": "Musculação, natação",
       "created_at": 1593144873150
     }
   ]
