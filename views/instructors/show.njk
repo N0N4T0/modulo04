@@ -4,8 +4,9 @@
 
 <div class="card">
     <section 
-        class="avatar">
-        style="background-image: url({{instructor.avatar_url}});"
+        class="avatar"
+        style="background-image: url({{instructor.avatar_url}});"    
+    >
     </section>
     <section class="details">
 
@@ -39,6 +40,8 @@
             <div>Desde</div>
             <div>{{instructor.created_at}}</div>
         </div>
+
+        <a href="#" class="button">Editar</a>
     </section>
 </div>
 {% endblock content %}
