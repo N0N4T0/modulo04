@@ -2,6 +2,15 @@ const fs = require('fs')
 const data = require('./data.json')
 const { age } = require('./utils')
 
+//edit
+exports.edit = function(req, res){
+
+
+
+    return res.render('instructors/edit')
+}
+
+
 //show
 exports.show = function(req, res){
     const { id } = req.params
@@ -21,6 +30,7 @@ exports.show = function(req, res){
 
     return res.render('instructors/show', { instructor })
 }
+
 
 //create 
 exports.post = function(req, res) {
