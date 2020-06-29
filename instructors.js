@@ -29,12 +29,11 @@ exports.delete = function(req, res){
 //atualizar
 exports.put = function(req, res){
     const { id } = req.body;
-
-    let index = 0;
+    let index
 
     const foundInstructor = data.instructors.find(function(instructor, foundIndex){
-        if(id == instructor.id){
-            index == foundIndex            
+        if(instructor.id  == id){
+            index = foundIndex            
             return true
         }     
     })
@@ -44,7 +43,8 @@ exports.put = function(req, res){
     const instructor = {
         ...foundInstructor,
         ...req.body,
-        birth: date(foundInstructor.birth)
+        id: Number(id),
+        birth: Date.parse(req.body.birth),
     }
 
     data.instructors[index] = instructor
