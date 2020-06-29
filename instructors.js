@@ -1,6 +1,36 @@
 const fs = require('fs')
 const data = require('./data.json')
+const Intl = require('intl')
 const { age, date } = require('./utils')
+
+//atualizar
+exports.put = function(req, res){
+    const { id } = req.body;
+
+    let index = 0;
+
+    const foundInstructor = data.instructors.find(function(instructor, foundIndex){
+        if(id == instructor.id){
+            index == foundIndex            
+            return true
+        }     
+    })
+
+    if(!foundInstructor) return res.send("Instructor not found")
+
+    const instructor = {
+        ...foundInstructor,
+        ...req.body,
+        birth: date(foundInstructor.birth)
+    }
+
+
+    fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err){
+        if(err) return res.send("Write file error")
+
+        return res.redirect(`/instructors/${id}`)
+    })
+}
 
 //edit
 exports.edit = function(req, res){
