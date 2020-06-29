@@ -3,6 +3,12 @@ const data = require('./data.json')
 const Intl = require('intl')
 const { age, date } = require('./utils')
 
+//index
+exports.index = function(req, res) {
+    return res.render("instructors/index", { instructors: data.instructors })
+}
+
+
 //delete
 exports.delete = function(req, res){
     const { id } = req.body
