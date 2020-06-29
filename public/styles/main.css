@@ -184,3 +184,7 @@ a.button {
     text-align: center;
     text-decoration: none;
 }
+
+#form-delete button[type="submit"] {
+    background-color: red;
+}

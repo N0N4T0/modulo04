@@ -26,24 +26,6 @@
       "gender": "F",
       "services": "Musculação, natação, zumba, natação",
       "created_at": 1593300098188
-    },
-    {
-      "id": 4,
-      "avatar_url": "http://google.com",
-      "name": "Mainx",
-      "birth": 1591228800000,
-      "gender": "M",
-      "services": "Musculação",
-      "created_at": 1593301833359
-    },
-    {
-      "id": 5,
-      "avatar_url": "http://google.com",
-      "name": "Mainx",
-      "birth": 1591228800000,
-      "gender": "M",
-      "services": "Musculação",
-      "created_at": 1593302074875
     }
   ]
 }
