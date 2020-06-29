@@ -24,6 +24,7 @@ exports.put = function(req, res){
         birth: date(foundInstructor.birth)
     }
 
+    data.instructors[index] = instructor
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err){
         if(err) return res.send("Write file error")
