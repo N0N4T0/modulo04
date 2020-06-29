@@ -1,14 +1,21 @@
 const fs = require('fs')
-const data = require('./data.json')
+const data = require('../data.json')
 const Intl = require('intl')
-const { age, date } = require('./utils')
+const { age, date } = require('../utils')
 
 //index
 exports.index = function(req, res) {
     return res.render("instructors/index", { instructors: data.instructors })
 }
 
+//create
+exports.create = function(req, res) {
+    return res.render('instructors/create')
+}
 
+
+
+//CRUD
 //delete
 exports.delete = function(req, res){
     const { id } = req.body
