@@ -10,6 +10,17 @@
       "weight": "90",
       "height": "189",
       "id": 1
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/10553730/505x500",
+      "name": "Hasd Ava",
+      "email": "ha@gmail.com",
+      "birth": 960595200000,
+      "gender": "F",
+      "blood": "AB+",
+      "weight": "85",
+      "height": "180"
     }
   ],
   "instructors": [
