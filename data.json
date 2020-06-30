@@ -17,7 +17,7 @@
       "id": 1,
       "avatar_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "name": "Maic Albuq",
-      "birth": 1274832000000,
+      "birth": 896140800000,
       "gender": "M",
       "services": "Musculação, natação, ioga",
       "created_at": 1593215128796
@@ -26,7 +26,7 @@
       "id": 2,
       "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
       "name": "Natalia",
-      "birth": 1277596800000,
+      "birth": 646444800000,
       "gender": "F",
       "services": "Musculação, natação",
       "created_at": 1593215477270
