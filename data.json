@@ -1,5 +1,17 @@
 {
-  "members": [],
+  "members": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "Jerfd Albin Muaid",
+      "email": "jralb@gmail.com",
+      "birth": 645580800000,
+      "gender": "M",
+      "blood": "A1",
+      "weigth": "78",
+      "height": "189",
+      "id": 1
+    }
+  ],
   "instructors": [
     {
       "id": 1,
@@ -27,6 +39,15 @@
       "gender": "F",
       "services": "Musculação, natação, zumba, natação",
       "created_at": 1593300098188
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://images.unsplash.com/photo-1544133782-b62779394064?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "name": "Brutos Conan",
+      "birth": 452476800000,
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1593483046987
     }
   ]
 }
