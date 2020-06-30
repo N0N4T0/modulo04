@@ -72,36 +72,36 @@
     <div>Tipo sanguíneo</div>
     <div>
         <select name="blood">
-            <option value="A1"
-                {% if member.blood =="A1" %}select{% endif %}>
+            <option value="A+"
+                {% if member.blood =="A+" %}select{% endif %}>
                 A+
             </option>
-            <option value="A0"
-                {% if member.blood =="A0" %}select{% endif %}>
+            <option value="A-"
+                {% if member.blood =="A-" %}select{% endif %}>
                 A-
             </option>
-            <option value="B1"
-                {% if member.blood =="B1" %}select{% endif %}>
+            <option value="B+"
+                {% if member.blood =="B+" %}select{% endif %}>
                 B+
             </option>
-            <option value="B0"
-                {% if member.blood =="B0" %}select{% endif %}>
+            <option value="B-"
+                {% if member.blood =="B-" %}select{% endif %}>
                 B-
             </option>
-            <option value="AB1"
-                {% if member.blood =="AB1" %}select{% endif %}>
+            <option value="AB+"
+                {% if member.blood =="AB+" %}select{% endif %}>
                 AB+
             </option>
-            <option value="AB0"
-                {% if member.blood =="AB0" %}select{% endif %}>
+            <option value="AB-"
+                {% if member.blood =="AB-" %}select{% endif %}>
                 AB-
             </option>
-            <option value="O1"
-                {% if member.blood =="O1" %}select{% endif %}>
+            <option value="O+"
+                {% if member.blood =="O+" %}select{% endif %}>
                 O+
             </option>
-            <option value="O0"
-                {% if member.blood =="O0" %}select{% endif %}>
+            <option value="O-"
+                {% if member.blood =="O-" %}select{% endif %}>
                 O-
             </option>
         </select>
@@ -113,8 +113,8 @@
     <div>
         <input 
             type="number"
-            name="weigth" 
-            value="{{member.weigth}}"
+            name="weight" 
+            value="{{member.weight}}"
         >
     </div>
 </div>
